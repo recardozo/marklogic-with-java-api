@@ -5,11 +5,11 @@ import com.marklogic.client.DatabaseClientFactory;
 
 public class Connection {
     
-    public final String HOST = "192.168.15.18";
-    public final String USERNAME = "admin";
-    public final String PASSWORD = "admin";
-    public final String DATABASE = "playground";
-    public final int PORT = 8000;
+    private final String HOST = "192.168.15.18";
+    private final String USERNAME = "admin";
+    private final String PASSWORD = "admin";
+    private final String DATABASE = "playground";
+    private final int PORT = 8000;
     
     public DatabaseClient getClient () {
         DatabaseClientFactory.DigestAuthContext authContext = new DatabaseClientFactory.DigestAuthContext (USERNAME, PASSWORD);
