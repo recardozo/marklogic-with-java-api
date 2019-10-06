@@ -10,14 +10,14 @@ import com.marklogic.connection.ConnectionManager;
 import javax.swing.text.Document;
 import java.io.File;
 
-public class PublilcationRepository {
+public class PublicationRepository {
     
     private DatabaseClient client;
     private Transaction transaction;
     private DocumentWriteSet batch;
     private GenericDocumentManager documentManager;
     
-    public PublilcationRepository () {
+    public PublicationRepository () {
         setUpVariables ();
     }
     

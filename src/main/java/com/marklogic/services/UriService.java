@@ -22,6 +22,4 @@ public class UriService {
                 .append (filename);
         return stringBuilder.toString ();
     }
-    
-    
 }

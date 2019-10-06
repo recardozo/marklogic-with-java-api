@@ -11,9 +11,7 @@ public class Upload {
     
     public void upload (List<File> publicationsFiles) {
         service = new PublicationService ();
-        publicationsFiles.forEach (file -> {
-            service.savePdfFile (file);
-        });
+        publicationsFiles.forEach (file -> service.savePdfFile (file));
         
     }
 }

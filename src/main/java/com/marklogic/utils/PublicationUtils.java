@@ -6,7 +6,7 @@ import java.util.Date;
 public class PublicationUtils {
     
     public String formatedDate (Date date) {
-        return new SimpleDateFormat ("ddMMyyyy")
+        return new SimpleDateFormat ("dd-MM-yyyy")
                 .format (date);
     }
 }
